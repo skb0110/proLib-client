@@ -1,0 +1,27 @@
+.jumbotron{
+  margin-bottom: 0;
+  height: 84.6vh;
+}
+// .bodyBG {
+// 	background: url('../assets/img/pl-body-bg.png') no-repeat center center fixed;
+// 	-webkit-background-size: cover;
+// 	-moz-background-size: cover;
+// 	-o-background-size: cover;
+// 	background-size: cover;
+//   font-family: 'Roboto', Tahoma, Arial, sans-serif;
+//   border-radius: 0;
+// }
+.logo{
+  width: 150px;
+  img{
+    width: 45%;
+  }
+}
+.footer{
+  padding: 10px;
+  background: #343a40;
+  color: #ccc;
+  p{
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,12 @@
+<div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Find you content using below search</h3>
+      <form name="srachForm" (ngSubmit)="onSubmit(searchForm)" #searchForm="ngForm">
+        <input type="text" class="textbox" name="searchText"
+          placeholder="Search" [(ngModel)]="searchText">
+        <input title="Search" type="submit" class="button">
+      </form>
+    </div>
+  </div>
+</div>
